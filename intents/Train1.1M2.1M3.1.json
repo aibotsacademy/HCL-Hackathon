@@ -1,0 +1,166 @@
+{
+  "id": "7b4d799f-e4f1-49a9-9589-30fee2e40f8f",
+  "parentId": "90ac9fff-b1c7-40cc-a2e3-3173c932d131",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.1M2.1M3.1",
+  "auto": true,
+  "contexts": [
+    "Train11M21M3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom.Train11-custom.Train11M2-custom.Train11M21-custom.Train11M21M3-custom",
+      "affectedContexts": [
+        {
+          "name": "Train11M21M31-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3fc288bb-6060-492b-b94c-325e5b4b92b1",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f2e0d02c-3ed0-4a66-8f03-cd5591d4497b",
+          "name": "quiz3",
+          "required": true,
+          "dataType": "@quiz3",
+          "value": "$quiz3",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure, to continue to Module 4, complete the Assessment #3 of 5 questions 👇🏻\n\n1. What is a domain name? \n\nA) A type of email address \n\nB) A set of instructions for browsing the web \n\nC) An online storage service \n\nD) A unique identifier for a website on the internet"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4c80948b-befe-4c78-9632-9d41c23fef58",
+          "name": "quiz31",
+          "required": true,
+          "dataType": "@quiz3",
+          "value": "$quiz31",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "2. What is the primary function of an email client? \n\nA) To browse the web \n\nB) To store files online \n\nC) To send and receive email messages \n\nD) To create and edit documents"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f5224500-158b-4dec-8786-a94051310aa6",
+          "name": "quiz32",
+          "required": true,
+          "dataType": "@quiz3",
+          "value": "$quiz32",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "3. What is the purpose of a firewall? \n\nA) To protect your computer from viruses \n\nB) To speed up your internet connection \n\nC) To block unwanted incoming network traffic \n\nD) To store data online"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f1be4462-e3bc-4944-9968-62536e329bc6",
+          "name": "quiz33",
+          "required": true,
+          "dataType": "@quiz3",
+          "value": "$quiz33",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "4. Which of the following is an example of an instant messaging platform?\n\nA) Facebook\n\nB) Twitter \n\nC) WhatsApp \n\nD) Instagram"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5182b418-301d-4096-be41-84431c7b5ecd",
+          "name": "quiz34",
+          "required": true,
+          "dataType": "@quiz3",
+          "value": "$quiz34",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "5. Which of the following is a risk associated with sharing too much personal information online? \n\nA) Identity theft \n\nB) Computer viruses \n\nC) Slow internet connection \n\nD) Website not loading properly"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Congratulations, you have passed the Assessment #3 of this course and you\u0027re ready for Module 4!",
+          "replies": [
+            "Continue",
+            "Reset"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

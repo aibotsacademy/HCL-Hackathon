@@ -1,0 +1,36 @@
+{
+  "id": "ae72faf8-a65c-493e-8070-d11953a7a857",
+  "parentId": "f6d73573-70bd-4490-a6df-878c2779f124",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.3",
+  "auto": true,
+  "contexts": [
+    "Train1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

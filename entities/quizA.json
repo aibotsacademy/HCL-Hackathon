@@ -1,0 +1,9 @@
+{
+  "id": "41d0ee20-9044-4762-900c-d3fb2e2930d9",
+  "name": "quizA",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

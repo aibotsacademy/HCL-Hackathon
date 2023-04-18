@@ -1,0 +1,180 @@
+{
+  "id": "f6d73573-70bd-4490-a6df-878c2779f124",
+  "parentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1",
+  "auto": true,
+  "contexts": [
+    "Train-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom",
+      "affectedContexts": [
+        {
+          "name": "Train1-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://media3.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif?cid\u003decf05e47nka4iy71ro2oay5ez09v54ejmj6e5r2c26gubbof\u0026rid\u003dgiphy.gif\u0026ct\u003dg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the Module 1: Introduction to Digital Literacy training course!\n🎥 https://youtu.be/p2k3C-iB88w"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Learning Objectives:\n\n•Define digital literacy and its components\n\n•Understand the importance of digital literacy in the digital age\n\n•Identify common digital literacy skills required in various fields\n\n•Describe the impact of the lack of digital literacy on individuals and society"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "•Definition of digital literacy and its importance in today\u0027s world\n🎥 https://youtu.be/EuDnSqAo784"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "•Examples of digital tools and platforms\n🎥 https://youtu.be/vYgzcEJmkEs"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Are you ready to continue?",
+          "replies": [
+            "Module 2",
+            "Learn More",
+            "Practice"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "3",
+          "platform": "facebook",
+          "imageUrl": "https://media3.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif?cid\u003decf05e47nka4iy71ro2oay5ez09v54ejmj6e5r2c26gubbof\u0026rid\u003dgiphy.gif\u0026ct\u003dg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the Module 1: Introduction to Digital Literacy training course!\n🎥 https://youtu.be/p2k3C-iB88w"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Learning Objectives:\n\n•Define digital literacy and its components\n\n•Understand the importance of digital literacy in the digital age\n\n•Identify common digital literacy skills required in various fields\n\n•Describe the impact of the lack of digital literacy on individuals and society"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "•Definition of digital literacy and its importance in today\u0027s world\n🎥 https://youtu.be/p2k3C-iB88w"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "•Examples of digital tools and platforms\n🎥 https://youtu.be/p2k3C-iB88w"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "•Basic terminology and concepts (e.g. Internet, browser, URL)\n🎥 https://youtu.be/p2k3C-iB88w"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Are you ready to continue?",
+          "replies": [
+            "Module 2",
+            "Learn More"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

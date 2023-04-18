@@ -1,0 +1,112 @@
+{
+  "id": "02f22827-f44b-4b86-b0a4-348020c2b46a",
+  "parentId": "3547ce29-d352-4357-a16e-58da108923eb",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.1M2",
+  "auto": true,
+  "contexts": [
+    "Train11-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom.Train11-custom",
+      "affectedContexts": [
+        {
+          "name": "Train11M2-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the Module 2: Basic Computer Skills training course!\nhttps://youtu.be/y2kg3MOk1sY"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Learning Objectives:\n\n-Understand the different parts of a computer and their functions\n\n-Learn how to troubleshoot basic computer issues\n\n-Develop skills in navigating computer software and applications"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 1: Computer Hardware Basics In this lesson, we will introduce the different parts of a computer and their functions. We will explore the different types of computers, including desktops, laptops, and tablets, and discuss the importance of hardware maintenance to ensure optimal performance."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 2: Troubleshooting Common Computer Issues Computers can experience various issues that hinder their performance. In this lesson, we will identify common computer issues, such as slow performance and connectivity problems, and discuss troubleshooting tips to resolve them."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 3: Navigating Computer Software In this lesson, we will develop skills in navigating different software applications, including operating systems, productivity software such as Microsoft Office, and internet browsers."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Are you ready to continue?",
+          "replies": [
+            "Module 3",
+            "Learn More",
+            "Practice"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

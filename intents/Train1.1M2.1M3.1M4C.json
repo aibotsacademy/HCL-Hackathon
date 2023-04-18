@@ -1,0 +1,72 @@
+{
+  "id": "89987a88-1c80-4643-9987-447db5dec3c7",
+  "parentId": "049c9cff-fc77-41df-9dc9-e18642b2849c",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.1M2.1M3.1M4C",
+  "auto": true,
+  "contexts": [
+    "Train11M21M31M4-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom.Train11-custom.Train11M2-custom.Train11M21-custom.Train11M21M3-custom.Train11M21M31-custom.Train11M21M31M4-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "😃 🎉 Congratulations for getting your first Certification on Digital Literacy!\n\n(Download your certificate below) 👇🏻"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://i.ibb.co/zfsSBRz/Copy-of-University-Webinar-Certificate-by-Slidesgo.jpg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "💡We invite you to keep learning!",
+          "replies": [
+            "CV Builder",
+            "Interview",
+            "Find Job"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,133 @@
+{
+  "id": "049c9cff-fc77-41df-9dc9-e18642b2849c",
+  "parentId": "7b4d799f-e4f1-49a9-9589-30fee2e40f8f",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.1M2.1M3.1M4",
+  "auto": true,
+  "contexts": [
+    "Train11M21M31-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom.Train11-custom.Train11M2-custom.Train11M21-custom.Train11M21M3-custom.Train11M21M31-custom",
+      "affectedContexts": [
+        {
+          "name": "Train11M21M31M4-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the last module 4: Social Media training course! \n🎥 https://youtu.be/FSTY5fU9YA4"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Learning Objectives:\n\n-Understand the basics of social media and its importance in digital marketing.\n\n-Develop skills in creating an effective social media strategy.\n\n-Learn how to create engaging and shareable social media content.\n\n-Identify different social media platforms and how to use them effectively.\n\n-Understand how to measure and evaluate the success of your social media campaigns."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 1: Introduction to Social Media In this lesson, we will introduce the basics of social media, its history and evolution, and its importance in modern digital marketing strategies."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 2: Creating a Social Media Strategy In this lesson, we will discuss how to create a social media strategy that aligns with your organization\u0027s goals and objectives, and how to identify and target your ideal audience."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 3: Creating Engaging Social Media Content In this lesson, we will develop skills in creating shareable and engaging social media content, including images, video, and written content."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 4: Social Media Platforms In this lesson, we will explore different social media platforms, including Facebook, Twitter, Instagram, LinkedIn, and YouTube, and learn how to use them effectively for different types of content and audiences."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 5: Measuring Social Media Success In this lesson, we will discuss how to measure the success of your social media campaigns, including different key performance indicators (KPIs), and how to use that data to make informed decisions about future campaigns."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Are you ready to finish this course?",
+          "replies": [
+            "Get Certification",
+            "Review Content"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

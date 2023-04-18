@@ -1,0 +1,123 @@
+{
+  "id": "90ac9fff-b1c7-40cc-a2e3-3173c932d131",
+  "parentId": "aa6ff6c7-f382-40ee-af13-fbfc6b7ee71d",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.1M2.1M3",
+  "auto": true,
+  "contexts": [
+    "Train11M21-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom.Train11-custom.Train11M2-custom.Train11M21-custom",
+      "affectedContexts": [
+        {
+          "name": "Train11M21M3-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the Module 3: Internet and Online Communication training course! \n🎥 https://youtu.be/x3c1ih2NJEg"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Learning Objectives:\n\n-Understand the basics of the internet and how it works.\n\n-Develop skills in searching the web and evaluating online content.\n\n-Learn about different forms of online communication and how to use them effectively and safely.\n\n-Identify common online security risks and how to protect yourself and your personal information."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 1: Introduction to the Internet In this lesson, we will introduce the basics of the internet, how it works, and the different internet service providers. We will explore the different technologies that make up the internet, including TCP/IP and domain names."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 2: Searching the Web and Evaluating Online Content In this lesson, we will develop skills in searching the web effectively and determining the credibility of online content. We will discuss strategies for identifying reliable sources and evaluating the accuracy of information."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 3: Forms of Online Communication In this lesson, we will discuss the different forms of online communication, including email, instant messaging, and social media. We will explore the different features and functions of each communication method and how to use them safely and effectively."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Lesson 4: Online Security In this lesson, we will identify common online security risks, such as phishing scams and identity theft, and discuss strategies for protecting yourself and your personal information when using the internet."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Are you ready to continue?",
+          "replies": [
+            "Module 4",
+            "Learn More",
+            "Practice"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

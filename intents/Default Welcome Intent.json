@@ -1,0 +1,105 @@
+{
+  "id": "16d3624c-0801-4041-8394-81bf0516515f",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://media3.giphy.com/media/20NLMBm0BkUOwNljwv/200w.gif?cid\u003d6c09b952uwk1y0911pqwxknl9s8vrwfghnkehsygk3867nvo\u0026rid\u003d200w.gif\u0026ct\u003dg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to Trainyfai, I\u0027m Ava the virtual assistant that can help you get trained and develop skills for the digital era."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Let\u0027s get started!",
+          "replies": [
+            "Training",
+            "Bootcamp",
+            "Connect",
+            "Job"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "3",
+          "platform": "facebook",
+          "imageUrl": "https://media3.giphy.com/media/20NLMBm0BkUOwNljwv/200w.gif?cid\u003d6c09b952uwk1y0911pqwxknl9s8vrwfghnkehsygk3867nvo\u0026rid\u003d200w.gif\u0026ct\u003dg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to Jobefai, I\u0027m Ava the virtual assistant of that can help you get trained for the digital era.",
+            "Welcome to Jobefai, your personal virtual assistant for digital training skills!",
+            "Welcome to Jobefai, the virtual assistant that helps you develop the digital skills you need to succeed!",
+            "Welcome to Jobefai, I\u0027m Ava the virtual assistant of the first Fair Platform.",
+            "Welcome to Jobefai, I\u0027m Ava the virtual assistant of workers of our digital platform."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Let\u0027s get started!",
+          "replies": [
+            "Training",
+            "Bootcamp",
+            "Community",
+            "Jobs"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

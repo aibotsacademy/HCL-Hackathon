@@ -1,0 +1,166 @@
+{
+  "id": "3547ce29-d352-4357-a16e-58da108923eb",
+  "parentId": "f6d73573-70bd-4490-a6df-878c2779f124",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.1",
+  "auto": true,
+  "contexts": [
+    "Train1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom",
+      "affectedContexts": [
+        {
+          "name": "Train11-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f2e3782d-700a-4c11-9087-57241e33c2cb",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1ee4e837-e370-4da0-83ab-594a3cb5867a",
+          "name": "quiz1",
+          "required": true,
+          "dataType": "@quiz1",
+          "value": "$quiz1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure, to continue to module 2, complete the following assessment  of 5 questions👇\n\n1. What URL stand for?\n\nA) Uniform Research Locator\n \nB) Universal Research Locator\n \nC) Uniform Resource Locator\n\nD) Universal Resource Locator"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "27318ef4-2f1d-43f8-96cd-19387c0eaa35",
+          "name": "quiz11",
+          "required": true,
+          "dataType": "@quiz1",
+          "value": "$quiz11",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "2. Which of the following best describes social media?\n\n A) A communication tool used by professionals\n\n B) A platform for storing and sharing files \n\nC) A type of operating system \n\nD) A platform for online social interaction"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f232e6d2-8807-421d-84db-d51d23dfd5a2",
+          "name": "quiz12",
+          "required": true,
+          "dataType": "@quiz1",
+          "value": "$quiz12",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "3. What is the primary function of email? \n\nA) Searching for information on the internet\n\nB) Sharing files and documents \n\nC) Online shopping \n\nD) Communication"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "026088f2-2798-41bb-add5-3587c9ef30f3",
+          "name": "quiz13",
+          "required": true,
+          "dataType": "@quiz1",
+          "value": "$quiz13",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "4. What is the purpose of the World Wide Web?\n\nA) To send emails \n\nB) To share information on social media \n\nC) To access and share information on the internet\n\nD) To play video games"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "59a747af-9ef6-4ca3-9b21-7bcc988bb06d",
+          "name": "quiz14",
+          "required": true,
+          "dataType": "@quiz1",
+          "value": "$quiz14",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "5. Which of the following is NOT a common component of digital literacy? \n\nA) Understanding how to use digital tools \n\nB) Knowing how to use social media responsibly\n\nC) Being able to manage and protect personal information online \n\nD) Knowing how to navigate the internet"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "🎉 Congratulations, you have passed all assessments for this course and you\u0027re ready for Module 2!",
+          "replies": [
+            "Continue",
+            "Reset"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "value": "unique identifier",
+    "synonyms": [
+      "unique identifier",
+      "D"
+    ]
+  },
+  {
+    "value": "email messages",
+    "synonyms": [
+      "email messages"
+    ]
+  },
+  {
+    "value": "block unwanted",
+    "synonyms": [
+      "block unwanted"
+    ]
+  },
+  {
+    "value": "whatsapp",
+    "synonyms": [
+      "whatsapp",
+      "C"
+    ]
+  },
+  {
+    "value": "identity theft",
+    "synonyms": [
+      "identity theft",
+      "A"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "value": "Perform Calculation",
+    "synonyms": [
+      "Perform Calculation",
+      "C"
+    ]
+  },
+  {
+    "value": "Keyboard",
+    "synonyms": [
+      "Keyboard"
+    ]
+  },
+  {
+    "value": "Google Drive",
+    "synonyms": [
+      "Google Drive",
+      "Drive"
+    ]
+  },
+  {
+    "value": "Ctrl",
+    "synonyms": [
+      "Ctrl",
+      "Command",
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "value": ".exe",
+    "synonyms": [
+      ".exe"
+    ]
+  }
+]

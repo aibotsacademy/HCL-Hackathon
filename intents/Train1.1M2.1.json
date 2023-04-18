@@ -1,0 +1,166 @@
+{
+  "id": "aa6ff6c7-f382-40ee-af13-fbfc6b7ee71d",
+  "parentId": "02f22827-f44b-4b86-b0a4-348020c2b46a",
+  "rootParentId": "d91929fa-7915-46a6-8b5b-fd68919ac151",
+  "name": "Train1.1M2.1",
+  "auto": true,
+  "contexts": [
+    "Train11M2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Train.Train-custom.Train1-custom.Train11-custom.Train11M2-custom",
+      "affectedContexts": [
+        {
+          "name": "Train11M21-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6000e02a-1f2c-4c92-9497-8b1e855fa090",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5890ba5d-ea68-4db7-b544-07ccb10b501f",
+          "name": "quiz2",
+          "required": true,
+          "dataType": "@quiz2",
+          "value": "$quiz2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure, to continue to Module 3, complete the Assessment 2 of 5 questions 👇🏽\n\n1. What is the primary function of a computer\u0027s Central Processing Unit (CPU)? \n\nA. To store data \n\nB. To display images \n\nC. To perform calculations \n\nD. To connect to the internet"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c38ba7a5-daa4-47d4-86a5-bc25456d1145",
+          "name": "quiz21",
+          "required": true,
+          "dataType": "@quiz2",
+          "value": "$quiz21",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "2. Which of the following is an example of input devices? \n\nA. Monitor \n\nB. Keyboard \n\nC. Printer \n\nD. Speakers"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fc80e094-cc87-4ee4-977a-d4b298392059",
+          "name": "quiz22",
+          "required": true,
+          "dataType": "@quiz2",
+          "value": "$quiz22",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "3. Which of the following is an example of a cloud storage service? \n\nA. Microsoft Excel \n\nB. Google Drive \n\nC. Adobe Photoshop \n\nD. Mozilla Firefox"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a836845f-b630-47ea-be3e-a84dcbf52fa6",
+          "name": "quiz23",
+          "required": true,
+          "dataType": "@quiz2",
+          "value": "$quiz23",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "4. Which of the following shortcuts can be used to copy selected text? \n\nA) Ctrl + C \n\nB) Ctrl + V \n\nC) Ctrl + X \n\nD) Ctrl + Z"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "54f37c0d-5d01-48c5-88ab-ff6d2f5ec9e4",
+          "name": "quiz24",
+          "required": true,
+          "dataType": "@quiz2",
+          "value": "$quiz24",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "5. Which of the following is an example of a file extension? \n\nA) .exe \n\nB) Google \n\nC) Amazon \n\nD) YouTube"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Congratulations, you have passed the Assessment #2 of this course and you\u0027re ready for Module 3!",
+          "replies": [
+            "Continue",
+            "Reset"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "43dd6876-9a27-4165-b361-10a821fb3a24",
+    "data": [
+      {
+        "text": "🛠️",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c04baf5-1d93-476a-93d0-8004b036f862",
+    "data": [
+      {
+        "text": "mechanics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5c1dd1d-cfe5-49b9-bc5d-e9860b38152d",
+    "data": [
+      {
+        "text": "jobs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2aaf9c9a-9da2-42eb-9400-da0e35d0b6dc",
+    "data": [
+      {
+        "text": "protection",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

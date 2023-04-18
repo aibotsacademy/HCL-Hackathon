@@ -1,0 +1,67 @@
+{
+  "id": "6b686c39-2dce-4a9a-b845-6f22efac11de",
+  "name": "Job",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "facebook",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Auto_Mechanic.jpg/640px-Auto_Mechanic.jpg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Position: Car Mechanic (Full-Time position)\n\nDescription: We are looking for an experienced Car Mechanic to join our team. The Mechanic must be able to diagnose and repair all types of cars and light trucks.\n\nQualifications:\n• Previous experience with automotive repairs and maintenance \n• Working knowledge of diagnostic tools and equipment \n• Ability to read and comprehend service manuals\n\nConditions: • Benefits package including medical, dental, and vision insurance • Paid vacation and sick days • 401 (k) plan with employer match"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Do you want to apply for this position?",
+          "replies": [
+            "✅ Yes",
+            "❌ No"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
